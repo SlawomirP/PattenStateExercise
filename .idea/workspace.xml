@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c87639a-948d-459f-a0e3-9a812ca9987e" name="Changes" comment="patternStateGame start">
+      <change afterPath="$PROJECT_DIR$/src/main/java/gameMachine/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameMachine/OneHandBandit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameMachine/OneHandBandit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gameMachine/states/CoinInsertState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameMachine/states/CoinInsertState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameMachine/states/LoseState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameMachine/states/NoCoinState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameMachine/states/NoCoinState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gameMachine/states/WinState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gameMachine/states/WinState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,16 +38,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="gameMachine.states" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gameMachine.Main" />
+      <module name="PattenStateExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gameMachine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662917154149</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="patternStateGame start">
+      <created>1662918991466</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662918991466</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -21,11 +21,7 @@ public class NoCoinState implements State{
 
     @Override
     public void printActualStatus(OneHandBandit oneHandBandit) {
-        System.out.println(oneHandBandit.getState());
+        System.out.println("no coin");
     }
 
-    @Override
-    public String toString() {
-        return "No coin !!";
-    }
 }
